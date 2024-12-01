@@ -19,35 +19,36 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
-category: info
+title: "DKIM public keys for HTTP Message Signatures"
+abbrev: "DKIM keys in HTTP Signatures"
+category: std
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-rosomakho-dkim-http-signatures-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+# area: AREA
+# workgroup: WG Working Group
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - dkim
+ - http
+ - signature
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+#  group: WG
+#  type: Working Group
+#  mail: WG@example.com
+#  arch: https://example.com/WG
+  github: yaroslavros/http-signatures-dkim
+  latest: https://yaroslavros.github.io/http-signatures-dkim/draft-rosomakho-http-signatures-dkim.md
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    ins: "Y. Rosomakho"
+    fullname: Yaroslav Rosomakho
+    organization: Zscaler
+    email: yrosomakho@zscaler.com
 
 normative:
 
