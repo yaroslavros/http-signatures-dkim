@@ -9,19 +9,19 @@ number:
 date:
 consensus: true
 v: 3
-# area: AREA
-# workgroup: WG Working Group
+area: "Applications"
+workgroup: "HyperText Transfer Protocol"
 keyword:
  - dkim
  - http
  - signature
 venue:
-#  group: WG
-#  type: Working Group
-#  mail: WG@example.com
-#  arch: https://example.com/WG
-  github: yaroslavros/http-signatures-dkim
-  latest: https://yaroslavros.github.io/http-signatures-dkim/draft-rosomakho-http-signatures-dkim.md
+  group: "HyperText Transfer Protocol"
+  type: "Working Group"
+  mail: "http-wg@hplb.hp.com"
+  arch: "https://www.ics.uci.edu/pub/ietf/http/hypermail"
+  github: "yaroslavros/http-signatures-dkim"
+  latest: "https://yaroslavros.github.io/http-signatures-dkim/draft-rosomakho-http-signatures-dkim.html"
 
 author:
  -
